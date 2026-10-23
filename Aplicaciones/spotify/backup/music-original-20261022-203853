@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+
+# Controlador personal de Spotify para Kitty
+PLAYER="spotify"
+
+case "${1:-help}" in
+    play)
+        playerctl -p "$PLAYER" play
+        ;;
+
+    pause)
+        playerctl -p "$PLAYER" pause
+        ;;
+
+    toggle)
+        playerctl -p "$PLAYER" play-pause
+        ;;
+
+    next)
+        playerctl -p "$PLAYER" next
+        ;;
+
+    prev)
+        playerctl -p "$PLAYER" previous
+        ;;
+
+    song)
+        playerctl -p "$PLAYER" metadata \
+            --format '🎵 {{artist}} — {{title}}'
+        ;;
+
+    status)
+        playerctl -p "$PLAYER" status
+        ;;
+
+    *)
+        echo "🎧 Spotify — Control desde Kitty"
+        echo ""
+        echo "  spot play    → Reproducir"
+        echo "  spot pause   → Pausar"
+        echo "  spot toggle  → Reproducir/Pausar"
+        echo "  spot next    → Siguiente canción"
+        echo "  spot prev    → Canción anterior"
+        echo "  spot song    → Canción actual"
+        echo "  spot status  → Estado"
+        ;;
+esac

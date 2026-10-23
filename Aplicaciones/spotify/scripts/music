@@ -36,12 +36,12 @@ case "${1:-help}" in
     *)
         echo "🎧 Spotify — Control desde Kitty"
         echo ""
-        echo "  music play    → Reproducir"
-        echo "  music pause   → Pausar"
-        echo "  music toggle  → Reproducir/Pausar"
-        echo "  music next    → Siguiente canción"
-        echo "  music prev    → Canción anterior"
-        echo "  music song    → Canción actual"
-        echo "  music status  → Estado"
+        echo "  spot play    → Reproducir"
+        echo "  spot pause   → Pausar"
+        echo "  spot toggle  → Reproducir/Pausar"
+        echo "  spot next    → Siguiente canción"
+        echo "  spot prev    → Canción anterior"
+        echo "  spot song    → Canción actual"
+        echo "  spot status  → Estado"
         ;;
 esac
