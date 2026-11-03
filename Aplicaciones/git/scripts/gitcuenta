@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+case "${1:-}" in
+    uni)      HOST="github-uni" ;;
+    personal) HOST="github-personal" ;;
+    *)
+        echo "Uso: gitcuenta uni | personal"
+        exit 1
+        ;;
+esac
+
+git rev-parse --git-dir >/dev/null 2>&1 || {
+    echo "Error: no estás dentro de un repositorio Git."
+    exit 1
+}
+
+URL=$(git config --get remote.origin.url) || {
+    echo "Error: el repositorio no tiene remoto origin."
+    exit 1
+}
+
+case "$URL" in
+    https://github.com/*) REPO="${URL#https://github.com/}" ;;
+    git@github.com:*) REPO="${URL#git@github.com:}" ;;
+    git@github-uni:*) REPO="${URL#git@github-uni:}" ;;
+    git@github-personal:*) REPO="${URL#git@github-personal:}" ;;
+    *)
+        echo "Error: origin no utiliza una URL de GitHub reconocida."
+        exit 1
+        ;;
+esac
+
+git remote set-url origin "git@$HOST:$REPO"
+
+echo "✓ Cuenta configurada: ${1}"
+echo "✓ Repositorio: $REPO"

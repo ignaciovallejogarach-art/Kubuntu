@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+APP="$HOME/Proyectos/Kubuntu/Aplicaciones/condes10"
+export WINEPREFIX="$APP/config/wine"
+
+EXE=$(find "$WINEPREFIX/drive_c/Program Files" \
+    "$WINEPREFIX/drive_c/Program Files (x86)" \
+    -type f -iname 'condes*.exe' -print -quit 2>/dev/null || true)
+
+if [[ -z "$EXE" ]]; then
+    echo "ERROR: No se encuentra Condes 10."
+    exit 1
+fi
+
+cd "$(dirname "$EXE")"
+exec wine "$EXE" "$@"

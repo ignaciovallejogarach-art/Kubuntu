@@ -13,3 +13,6 @@ alias vpn_ucm_estado='globalprotect show --status'
 
 # ===== Recargar configuración bash =====
 alias recharge_bash='source ~/.bashrc'
+
+# COROS → diario (instalado por Entrenamientos)
+sincronizar_entrenamientos() { /home/ignacio/Proyectos/Orientacion/Entrenamientos/scripts/sincronizar_entrenamientos "$@"; }
