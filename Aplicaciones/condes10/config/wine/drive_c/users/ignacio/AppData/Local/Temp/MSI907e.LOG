@@ -1,0 +1,14 @@
+La acción se inició a las 20:01:34: ExitDialog.
+La acción terminó a las 20:01:34: ExitDialog. Valor devuelto: 0.
+La acción se inició a las 20:01:34: InstallValidate.
+La acción terminó a las 20:01:34: InstallValidate. Valor devuelto: 1.
+La acción se inició a las 20:01:34: AI_RestoreInstallerProps.
+La acción terminó a las 20:01:34: AI_RestoreInstallerProps. Valor devuelto: 0.
+La acción se inició a las 20:01:34: AI_DownloadPrereq.
+La acción terminó a las 20:01:34: AI_DownloadPrereq. Valor devuelto: 0.
+La acción se inició a las 20:01:34: AI_ExtractPrereq.
+La acción terminó a las 20:01:34: AI_ExtractPrereq. Valor devuelto: 0.
+La acción se inició a las 20:01:34: AI_InstallPostPrerequisite.
+La acción terminó a las 20:01:34: AI_InstallPostPrerequisite. Valor devuelto: 0.
+La acción se inició a las 20:01:34: AI_CleanPrereq.
+La acción terminó a las 20:01:34: AI_CleanPrereq. Valor devuelto: 0.

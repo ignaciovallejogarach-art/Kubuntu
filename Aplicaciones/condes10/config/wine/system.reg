@@ -7,9 +7,17 @@ WINE REGISTRY Version 2
 #time=1dd63e86947e232
 "SHAREDMEMLOCATION"="9000"
 
+[Software\\Caphyon\\Advanced Installer\\Installs\\{DC1F7B6E-3114-4991-95AE-F5613A85BB2F}] 1793732494
+#time=1dd6bc5bef81eb0
+"AIShRegAnswer"="0|1|1"
+
 [Software\\Caphyon\\Advanced Installer\\Installs\\{FDE1153E-740D-4642-98B5-B0DE875B65AC}] 1792867885
 #time=1dd63e8ab680f70
 "AIShRegAnswer"="0|0|1"
+
+[Software\\Caphyon\\Advanced Installer\\LZMA\\{DC1F7B6E-3114-4991-95AE-F5613A85BB2F}\\11.0.0] 1793732494
+#time=1dd6bc5bef849da
+"AI_ExePath"="C:\\users\\ignacio\\AppData\\Local\\Temp\\Update Condes 10.exe"
 
 [Software\\Caphyon\\Advanced Installer\\LZMA\\{FDE1153E-740D-4642-98B5-B0DE875B65AC}\\10.8.20] 1792867885
 #time=1dd63e8ab69d6b6
@@ -221,12 +229,15 @@ WINE REGISTRY Version 2
 #time=1dd63e86930f5d6
 "Content Type"="audio/wav"
 
-[Software\\Classes\\.wcd] 1792867885
-#time=1dd63e8ab671ae8
-@="Finn Arildsen Software.Condes 10"
+[Software\\Classes\\.wcd] 1793732494
+#time=1dd6bc5bef7a584
+@="Finn Arildsen Software.Condes 11"
 
 [Software\\Classes\\.wcd\\Finn Arildsen Software.Condes 10\\ShellNew] 1792867885
 #time=1dd63e8ab671b4c
+
+[Software\\Classes\\.wcd\\Finn Arildsen Software.Condes 11\\ShellNew] 1793732494
+#time=1dd6bc5bef7a67e
 
 [Software\\Classes\\.wri] 1792867774
 #time=1dd63e86946dba8
@@ -10636,26 +10647,26 @@ WINE REGISTRY Version 2
 #time=1dd63e869c3f426
 "409"="Active Scripting Engine with Encoding"
 
-[Software\\Classes\\Condes.Event] 1792867969
-#time=1dd63e8dda0f600
+[Software\\Classes\\Condes.Event] 1794224034
+#time=1dd703e33b8d164
 @="Condes.Event"
-"AppUserModelID"="Finn Arildsen Software.Condes.10"
+"AppUserModelID"="Finn Arildsen Software.Condes.11"
 
-[Software\\Classes\\Condes.Event\\DefaultIcon] 1792867969
-#time=1dd63e8dda0f4c0
-@="C:\\PROG~FBU\\COND~BUI\\Condes10.exe,1"
+[Software\\Classes\\Condes.Event\\DefaultIcon] 1794224034
+#time=1dd703e33b8d3da
+@="C:\\PROG~FBU\\Condes\\Condes11.exe,1"
 
-[Software\\Classes\\Condes.Event\\shell\\open\\command] 1792867969
-#time=1dd63e8dda0f75e
-@="C:\\PROG~FBU\\COND~BUI\\Condes10.exe \"%1\""
+[Software\\Classes\\Condes.Event\\shell\\open\\command] 1794224034
+#time=1dd703e33b8d682
+@="C:\\PROG~FBU\\Condes\\Condes11.exe \"%1\""
 
-[Software\\Classes\\Condes.Event\\shell\\print\\command] 1792867969
-#time=1dd63e8dda0f9b6
-@="C:\\PROG~FBU\\COND~BUI\\Condes10.exe /p \"%1\""
+[Software\\Classes\\Condes.Event\\shell\\print\\command] 1794224034
+#time=1dd703e33b8d8bc
+@="C:\\PROG~FBU\\Condes\\Condes11.exe /p \"%1\""
 
-[Software\\Classes\\Condes.Event\\shell\\printto\\command] 1792867969
-#time=1dd63e8dda0fc04
-@="C:\\PROG~FBU\\COND~BUI\\Condes10.exe /pt \"%1\" \"%2\" \"%3\" \"%4\""
+[Software\\Classes\\Condes.Event\\shell\\printto\\command] 1794224034
+#time=1dd703e33b8db00
+@="C:\\PROG~FBU\\Condes\\Condes11.exe /pt \"%1\" \"%2\" \"%3\" \"%4\""
 
 [Software\\Classes\\cplfile] 1792867774
 #time=1dd63e86946e3d2
@@ -11338,6 +11349,13 @@ WINE REGISTRY Version 2
 "Feature_1"=""
 "MainFeature"=""
 
+[Software\\Classes\\Installer\\Features\\E6B7F1CD4113199459EA5F16A358BBF2] 1793732494
+#time=1dd6bc5befcc5d2
+"bitfeature"=""
+"Feature"=""
+"Feature_1"=""
+"MainFeature"=""
+
 [Software\\Classes\\Installer\\Products\\E3511EDFD0472464895B0BED78B556CA] 1792867885
 #time=1dd63e8ab70769c
 "AdvertiseFlags"=dword:00000184
@@ -11365,6 +11383,38 @@ WINE REGISTRY Version 2
 [Software\\Classes\\Installer\\Products\\E3511EDFD0472464895B0BED78B556CA\\SourceList\\Net] 1792867885
 #time=1dd63e8ab70810a
 "1"=str(2):"C:\\users\\ignacio\\AppData\\Roaming\\Finn Arildsen Software\\Condes 10 10.8.20\\install\\75B65AC\\"
+
+[Software\\Classes\\Installer\\Products\\E6B7F1CD4113199459EA5F16A358BBF2] 1793732494
+#time=1dd6bc5befd02ea
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000409
+"PackageCode"="A38E3550BAAE0CD408BCC36002B00B61"
+"ProductIcon"="C:\\windows\\Installer\\{DC1F7B6E-3114-4991-95AE-F5613A85BB2F}\\cikon.exe"
+"ProductName"="Condes 11"
+"Version"=dword:0b000000
+
+[Software\\Classes\\Installer\\Products\\E6B7F1CD4113199459EA5F16A358BBF2\\SourceList] 1793732494
+#time=1dd6bc5befd3256
+"LastUsedSource"="n;1;C:\\users\\ignacio\\AppData\\Roaming\\Finn Arildsen Software\\Condes 11 11.0.0\\install\\A85BB2F\\"
+"PackageName"="Condes 11 Advanced Installer.x64.msi"
+
+[Software\\Classes\\Installer\\Products\\E6B7F1CD4113199459EA5F16A358BBF2\\SourceList\\Media] 1793732494
+#time=1dd6bc5befd3788
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Classes\\Installer\\Products\\E6B7F1CD4113199459EA5F16A358BBF2\\SourceList\\Net] 1793732494
+#time=1dd6bc5befd213a
+"1"=str(2):"C:\\users\\ignacio\\AppData\\Roaming\\Finn Arildsen Software\\Condes 11 11.0.0\\install\\A85BB2F\\"
+
+[Software\\Classes\\Installer\\UpgradeCodes\\305C288D646BBED4CA79946A822AE0A7] 1793732494
+#time=1dd6bc5befce33c
+"E6B7F1CD4113199459EA5F16A358BBF2"=""
 
 [Software\\Classes\\Installer\\UpgradeCodes\\DADF7B77BFF18CE48909263C4C9FB3E3] 1792867885
 #time=1dd63e8ab7069e0
@@ -72751,8 +72801,8 @@ WINE REGISTRY Version 2
 "CommonPictures"=str(2):"%PUBLIC%\\Pictures"
 "CommonVideo"=str(2):"%PUBLIC%\\Videos"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1793470738
-#time=1dd69644bc98e0a
+[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1794224032
+#time=1dd703e321f4d60
 "@Droid Sans Fallback (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\droid\\DroidSansFallbackFull.ttf"
 "@Noto Sans CJK HK (TrueType)"="Z:\\usr\\share\\fonts\\opentype\\noto\\NotoSansCJK-Regular.ttc"
 "@Noto Sans CJK HK Bold (TrueType)"="Z:\\usr\\share\\fonts\\opentype\\noto\\NotoSansCJK-Bold.ttc"
@@ -73499,13 +73549,25 @@ WINE REGISTRY Version 2
 #time=1dd63e8ab6f53d4
 "InstallerLocation"="C:\\windows\\system32"
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UpgradeCodes\\305C288D646BBED4CA79946A822AE0A7] 1793732494
+#time=1dd6bc5befc58c2
+"E6B7F1CD4113199459EA5F16A358BBF2"=""
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UpgradeCodes\\DADF7B77BFF18CE48909263C4C9FB3E3] 1792867885
 #time=1dd63e8ab6f553c
 "E3511EDFD0472464895B0BED78B556CA"=""
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\07C2319376F947B40BAB18B892CC02FC] 1793732494
+#time=1dd6bc5bee0786e
+"E6B7F1CD4113199459EA5F16A358BBF2"="-1:\\Software\\Wcondes\\Condes 11\\\\+"
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\07E27936982C123479D307D06240CEBB] 1792867884
 #time=1dd63e8ab3f6ea8
 "E3511EDFD0472464895B0BED78B556CA"="C:\\Program Files\\Condes 10\\CondesFr.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\0F610ECA1DB62A04BAF9245EDDAE03D3] 1793732494
+#time=1dd6bc5bee0573a
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\CondesTr.dll"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\0FF429E161CA7B84EBB04461DF0F0C8A] 1792867884
 #time=1dd63e8ab3f56b6
@@ -73515,9 +73577,33 @@ WINE REGISTRY Version 2
 #time=1dd63e8ab3e930c
 "E3511EDFD0472464895B0BED78B556CA"="-1:\\Software\\Caphyon\\Advanced Installer\\Installs\\{FDE1153E-740D-4642-98B5-B0DE875B65AC}\\AIShRegAnswer"
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\1C45CC4265E2B7945AC7949C3FBF5C88] 1793732494
+#time=1dd6bc5bee0aabe
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\Condes11.exe"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\20E7F397950F7E048A09F9F2711070FE] 1793732494
+#time=1dd6bc5bee0c3be
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\CondesUk.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\2CC2AE44957C20D48BF2D0D86367AA88] 1793732494
+#time=1dd6bc5bee013ba
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\CondesDk.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\2ECD906AB36F42541B2D3BCEEF4167ED] 1793732494
+#time=1dd6bc5bee02b3e
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\CondesFi.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\3620AF3208B9EE042B47D9473C8F7B16] 1793732494
+#time=1dd6bc5bedffcc2
+"E6B7F1CD4113199459EA5F16A358BBF2"=""
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\3E4DAB0E92F99694D87B0021C82B3EB1] 1792867884
 #time=1dd63e8ab3e7bce
 "E3511EDFD0472464895B0BED78B556CA"="C:\\Program Files\\Condes 10\\Condes10.chm"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\3EFFBDBFC444D384E94FFCD635B92CCC] 1793732494
+#time=1dd6bc5bee10180
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\CondesJa.dll"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\431FFF2CEB31A1C4C93DCBE862F5ADD7] 1792867884
 #time=1dd63e8ab407816
@@ -73526,6 +73612,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\5577A48927DC47D45B40983953D95F24] 1792867884
 #time=1dd63e8ab404904
 "E3511EDFD0472464895B0BED78B556CA"="-1:\\Software\\Wcondes\\Condes 10\\InstalledVersion\\"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\574D8237D3C825D49B072EB3C06A88D7] 1793732494
+#time=1dd6bc5bee0b72a
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\CondesBg.dll"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\5D3E284C05425E6488C3FDDF5E413675] 1792867884
 #time=1dd63e8ab4032e8
@@ -73539,6 +73629,14 @@ WINE REGISTRY Version 2
 #time=1dd63e8ab3f2718
 "E3511EDFD0472464895B0BED78B556CA"="C:\\Program Files\\Condes 10\\CondesDk.dll"
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\68C48B78AFC297347A702A1930827A29] 1793732494
+#time=1dd6bc5bedfdae4
+"E6B7F1CD4113199459EA5F16A358BBF2"="-1:\\Software\\Caphyon\\Advanced Installer\\Installs\\{DC1F7B6E-3114-4991-95AE-F5613A85BB2F}\\AIShRegAnswer"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\6A4DEAC93089B084AA4895A92163A855] 1793732494
+#time=1dd6bc5bedfe91c
+"E6B7F1CD4113199459EA5F16A358BBF2"="-1:\\Software\\Caphyon\\Advanced Installer\\LZMA\\{DC1F7B6E-3114-4991-95AE-F5613A85BB2F}\\11.0.0\\AI_ExePath"
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\6BC13304DCAD0DC4F964711264DF1B98] 1792867884
 #time=1dd63e8ab405fd4
 "E3511EDFD0472464895B0BED78B556CA"="-1:\\Software\\Wcondes\\Condes 10\\\\InstalledVersion\\"
@@ -73551,6 +73649,10 @@ WINE REGISTRY Version 2
 #time=1dd63e8ab413e72
 "E3511EDFD0472464895B0BED78B556CA"="C:\\Program Files\\Condes 10\\CondesUk.dll"
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\6DF6D5D199E02FB45AEB634B1C6F0BEF] 1793732494
+#time=1dd6bc5bee06d2e
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\proj.db"
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\80C7C1FC788FBD4469C419E8A7B7AEFD] 1792867884
 #time=1dd63e8ab3eac70
 "E3511EDFD0472464895B0BED78B556CA"="-1:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Condes 10 10.8.20\\DisplayName"
@@ -73559,9 +73661,29 @@ WINE REGISTRY Version 2
 #time=1dd63e8ab40043a
 "E3511EDFD0472464895B0BED78B556CA"="-1:\\Software\\Wcondes\\Condes 10\\\\+"
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\893FA526D3FF7AC4EB8D912589B3C076] 1793732494
+#time=1dd6bc5bee01f04
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\CondesEs.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\8F5190B7401EE3043A0E40C841D7CD89] 1793732494
+#time=1dd6bc5bee06220
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\CondesZh.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\93D7228236B96E44A82BA14E0EAE6C92] 1793732494
+#time=1dd6bc5bee0eb5a
+"E6B7F1CD4113199459EA5F16A358BBF2"="-1:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Condes 11 11.0.0\\NoModify"
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\93F17A9E7AD2EB543A2C792D54493529] 1792867884
 #time=1dd63e8ab401dbc
 "E3511EDFD0472464895B0BED78B556CA"="-1:\\Software\\Wcondes\\Condes 10\\Path"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\943B013CF62315C4EA9856ED79F62350] 1793732494
+#time=1dd6bc5bee0375a
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\CondesFr.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\9616BD4BECD6626488833F4C60EDBCBA] 1793732494
+#time=1dd6bc5bee0d656
+"E6B7F1CD4113199459EA5F16A358BBF2"="-1:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Condes 11 11.0.0\\DisplayName"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\9633470E6AE514847BBE01A89D945C55] 1792867884
 #time=1dd63e8ab3ef784
@@ -73570,6 +73692,18 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\97D657E25AD51AA47929C7D484F34D73] 1792867884
 #time=1dd63e8ab3fc6dc
 "E3511EDFD0472464895B0BED78B556CA"="C:\\Program Files\\Condes 10\\CondesZh.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\9E2720BA2CA1A5D4783742A1892A62E2] 1793732494
+#time=1dd6bc5bee09042
+"E6B7F1CD4113199459EA5F16A358BBF2"="-1:\\Software\\Wcondes\\Condes 11\\InstalledVersion\\"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\AF4C6CA6A88EB974CA7FBA0252A28B4F] 1793732494
+#time=1dd6bc5bee09ccc
+"E6B7F1CD4113199459EA5F16A358BBF2"="-1:\\Software\\Wcondes\\Condes 11\\\\InstalledVersion\\"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\B0ACD3FFAED1ECA4095864F779403A0F] 1793732494
+#time=1dd6bc5bee08200
+"E6B7F1CD4113199459EA5F16A358BBF2"="-1:\\Software\\Wcondes\\Condes 11\\Path"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\B4CD2677E109C4D499D655AAB3398A21] 1792867884
 #time=1dd63e8ab3fa788
@@ -73583,6 +73717,22 @@ WINE REGISTRY Version 2
 #time=1dd63e8ab4106e6
 "E3511EDFD0472464895B0BED78B556CA"="C:\\Program Files\\Condes 10\\Condes10fr.chm"
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\C820E89F3BB85AE4BBD022D062FF93A1] 1793732494
+#time=1dd6bc5bee0882c
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\users\\ignacio\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Condes\\"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\CCB23BFD85ED3214E8030A7D20DB9193] 1793732494
+#time=1dd6bc5bee04c04
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\CondesSe.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\D2AFD0613B26C4C4181214372F2B8443] 1793732494
+#time=1dd6bc5bee10ed2
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\Condes11fi.chm"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\D71FB79FD3762F54F8E41B745D1C643E] 1793732494
+#time=1dd6bc5bedfd09e
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\Condes11.chm"
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\DE31C8FFA4BBD9D41A670977D92875CF] 1792867884
 #time=1dd63e8ab3f0f4e
 "E3511EDFD0472464895B0BED78B556CA"="C:\\Program Files\\Condes 10\\CondesDe.dll"
@@ -73590,6 +73740,10 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\F2B05C1F70AAC404C81BDDCB360BC82F] 1792867884
 #time=1dd63e8ab3f3f14
 "E3511EDFD0472464895B0BED78B556CA"="C:\\Program Files\\Condes 10\\CondesEs.dll"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\F4F8E66D66B5B9340B18098BD127D7B8] 1793732494
+#time=1dd6bc5bee0085c
+"E6B7F1CD4113199459EA5F16A358BBF2"="C:\\Program Files\\Condes\\CondesDe.dll"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\F7110F5703E6FD04D936BBED6418D740] 1792867884
 #time=1dd63e8ab3fea22
@@ -73634,6 +73788,43 @@ WINE REGISTRY Version 2
 "Version"=dword:0a080014
 "VersionMajor"=dword:0000000a
 "VersionMinor"=dword:00000008
+"WindowsInstaller"=dword:00000001
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\E6B7F1CD4113199459EA5F16A358BBF2\\Features] 1793732494
+#time=1dd6bc5befcc4e2
+"bitfeature"="DHJFZml41?KCa[YPcqQC7Sv%{IPZ&@Y0%vPX.xDv*9@o.r)L]?^txcig?RzS)%n-c}~KV=L{NAh*F@6`$*Mu0R}@0=eDWBr5bAL1"
+"Feature"="c`^3yZ*sP=ToW&??tx&rDHJFZml41?KCa[YPcqQC7Sv%{IPZ&@Y0%vPX.xDv)%n-c}~KV=L{NAh*F@6`$*Mu0R}@0=eDWBr5bAL1"
+"Feature_1"="DHJFZml41?KCa[YPcqQC7Sv%{IPZ&@Y0%vPX.xDv)%n-c}~KV=L{NAh*F@6`$*Mu0R}@0=eDWBr5bAL1"
+"MainFeature"="7&f]Sb9Ac9a+UmV4eI.WDHJFZml41?KCa[YPcqQCVPpW.t-sr8bUlPMS&XJGLV&wmtAyf9N@+Cdl]eoTFEb0=CGqh@UWGDU^^WwSrHz[GYv1_@&0vHBps0-IB(~F^oYy6=M0N)u7^IRpN1{cghXuT@OW^Ppg$}a$_q7upo8Wx8`o`An6SwE6htiW`H(hj8F[.cr_3ba7fN4VO30-`89*2!U*,!.Y=]6M,dYhJ@x`8wb7-tqzgz6E6DmF9@KP2pTdMSXk7Sv%{IPZ&@Y0%vPX.xDv?UW5y[tU?Av=k6'LoPL+-Elz_WP2r@bI3J+cClo2o6$CJ$g?$?C=WR-{GO`wdV%$M8xFq@q7}872iMEPbhF{NE_1r8+F$B33sznu)%n-c}~KV=L{NAh*F@6`$*Mu0R}@0=eDWBr5bAL152Tyy=GR6?Nry@KQqnmjt,S**'xHT@%}]&MJyDm4"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\E6B7F1CD4113199459EA5F16A358BBF2\\InstallProperties] 1793732494
+#time=1dd6bc5befc5c28
+"AuthorizedCDFPrefix"=""
+"Comments"="This installer database contains the logic and data required to install Condes 11."
+"Contact"=""
+"DisplayName"="Condes 11"
+"DisplayVersion"="11.0.0"
+"EstimatedSize"=dword:00000000
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20261103"
+"InstallLocation"="C:\\Program Files\\Condes\\"
+"InstallSource"="C:\\users\\ignacio\\AppData\\Roaming\\Finn Arildsen Software\\Condes 11 11.0.0\\install\\A85BB2F\\"
+"Language"=dword:00000409
+"LocalPackage"="C:\\windows\\Installer\\94b8.msi"
+"ModifyPath"=str(2):"MsiExec.exe /X{DC1F7B6E-3114-4991-95AE-F5613A85BB2F}"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Finn Arildsen Software"
+"ReadMe"=""
+"Size"=""
+"SystemComponent"=dword:00000001
+"UninstallString"=str(2):"MsiExec.exe /X{DC1F7B6E-3114-4991-95AE-F5613A85BB2F}"
+"URLInfoAbout"="www.condes.net"
+"URLUpdateInfo"=""
+"Version"=dword:0b000000
+"VersionMajor"=dword:0000000b
+"VersionMinor"=dword:00000000
 "WindowsInstaller"=dword:00000001
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap] 1792867773
@@ -75838,6 +76029,58 @@ WINE REGISTRY Version 2
   00,69,00,6f,00,6e,00,5c,00,54,00,69,00,6d,00,65,00,20,00,5a,00,6f,00,6e,00,\
   65,00,73,00
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Condes 11 11.0.0] 1793732494
+#time=1dd6bc5befb506c
+"Comments"="This installer database contains the logic and data required to install Condes 11."
+"Contact"=""
+"DisplayIcon"="C:\\windows\\Installer\\{DC1F7B6E-3114-4991-95AE-F5613A85BB2F}\\cikon.exe"
+"DisplayName"="Condes 11"
+"DisplayVersion"="11.0.0"
+"EstimatedSize"=dword:00000000
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallLocation"="C:\\Program Files\\Condes\\"
+"ModifyPath"="msiexec.exe /i {DC1F7B6E-3114-4991-95AE-F5613A85BB2F} AI_UNINSTALLER_CTP=1"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Finn Arildsen Software"
+"Readme"=""
+"UninstallPath"="msiexec.exe /x {DC1F7B6E-3114-4991-95AE-F5613A85BB2F} AI_UNINSTALLER_CTP=1"
+"UninstallString"="msiexec.exe /x {DC1F7B6E-3114-4991-95AE-F5613A85BB2F} AI_UNINSTALLER_CTP=1"
+"URLInfoAbout"="www.condes.net"
+"URLUpdateInfo"=""
+"VersionMajor"=dword:0000000b
+"VersionMinor"=dword:00000000
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{DC1F7B6E-3114-4991-95AE-F5613A85BB2F}] 1793732494
+#time=1dd6bc5befc177c
+"AuthorizedCDFPrefix"=""
+"Comments"="This installer database contains the logic and data required to install Condes 11."
+"Contact"=""
+"DisplayName"="Condes 11"
+"DisplayVersion"="11.0.0"
+"EstimatedSize"=dword:00000000
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20261103"
+"InstallLocation"="C:\\Program Files\\Condes\\"
+"InstallSource"="C:\\users\\ignacio\\AppData\\Roaming\\Finn Arildsen Software\\Condes 11 11.0.0\\install\\A85BB2F\\"
+"Language"=dword:00000409
+"ModifyPath"=str(2):"MsiExec.exe /X{DC1F7B6E-3114-4991-95AE-F5613A85BB2F}"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Finn Arildsen Software"
+"ReadMe"=""
+"Size"=""
+"SystemComponent"=dword:00000001
+"UninstallString"=str(2):"MsiExec.exe /X{DC1F7B6E-3114-4991-95AE-F5613A85BB2F}"
+"URLInfoAbout"="www.condes.net"
+"URLUpdateInfo"=""
+"Version"=dword:0b000000
+"VersionMajor"=dword:0000000b
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{FDE1153E-740D-4642-98B5-B0DE875B65AC}] 1792867885
 #time=1dd63e8ab6f31a6
 "AuthorizedCDFPrefix"=""
@@ -76035,8 +76278,8 @@ WINE REGISTRY Version 2
 #time=1dd63e86947ff38
 "MAPI"="1"
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion] 1793470738
-#time=1dd69644bd7ef54
+[Software\\Microsoft\\Windows NT\\CurrentVersion] 1794224032
+#time=1dd703e323b724c
 "CurrentBuild"="19043"
 "CurrentBuildNumber"="19043"
 "CurrentMajorVersionNumber"=dword:0000000a
@@ -76107,8 +76350,8 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\FontMapper] 1792867774
 #time=1dd63e869477310
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1793470738
-#time=1dd69644bc98d2e
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1794224032
+#time=1dd703e321f4c5c
 "@Droid Sans Fallback (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\droid\\DroidSansFallbackFull.ttf"
 "@Noto Sans CJK HK (TrueType)"="Z:\\usr\\share\\fonts\\opentype\\noto\\NotoSansCJK-Regular.ttc"
 "@Noto Sans CJK HK Bold (TrueType)"="Z:\\usr\\share\\fonts\\opentype\\noto\\NotoSansCJK-Bold.ttc"
@@ -82056,6 +82299,10 @@ WINE REGISTRY Version 2
 #time=1dd63e8ab69f826
 @="10.8.20"
 
+[Software\\Wcondes\\Condes 11\\InstalledVersion] 1793732494
+#time=1dd6bc5bef860aa
+@="11.0.0"
+
 [Software\\Wine\\LicenseInformation] 1792867774
 #time=1dd63e8694bc898
 "Kernel-MUI-Language-Allowed"="EMPTY"
@@ -82076,6 +82323,10 @@ WINE REGISTRY Version 2
 [Software\\Wow6432Node\\Borland\\Database Engine\\Settings\\SYSTEM\\INIT] 1792867776
 #time=1dd63e86ada8c8a
 "SHAREDMEMLOCATION"="9000"
+
+[Software\\Wow6432Node\\Caphyon\\Advanced Installer\\{DC1F7B6E-3114-4991-95AE-F5613A85BB2F}] 1793732494
+#time=1dd6bc5bef8b82a
+"AI_InstallLanguage"="1033"
 
 [Software\\Wow6432Node\\Caphyon\\Advanced Installer\\{FDE1153E-740D-4642-98B5-B0DE875B65AC}] 1792867885
 #time=1dd63e8ab6a62d4
@@ -87340,6 +87591,10 @@ WINE REGISTRY Version 2
 #time=1dd63e8ab6c6f84
 "Path"="C:\\Program Files\\Condes 10\\"
 
+[Software\\Wow6432Node\\Wcondes\\Condes 11] 1793732494
+#time=1dd6bc5befa9000
+"Path"="C:\\Program Files\\Condes\\"
+
 [Software\\Wow6432Node\\Wine\\LicenseInformation] 1792867776
 #time=1dd63e86ade4e24
 "Kernel-MUI-Language-Allowed"="EMPTY"
@@ -87367,43 +87622,43 @@ WINE REGISTRY Version 2
 @="Disk drives"
 "Class"="DiskDrive"
 
-[System\\ControlSet001\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}] 1793470738
-#time=1dd69644bf6151a
+[System\\ControlSet001\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}] 1794224032
+#time=1dd703e325f4d3e
 @="Display adapters"
 "Class"="Display"
 
-[System\\ControlSet001\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000] 1793470738
-#time=1dd69644bf52380
-"DriverDate"="10-31-2026"
-"DriverDateData"=hex:01,00,f5,4b,64,69,dd,01
+[System\\ControlSet001\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000] 1794224032
+#time=1dd703e325c9af8
+"DriverDate"="11-9-2026"
+"DriverDateData"=hex:0a,6c,5c,32,3e,70,dd,01
 "DriverDesc"="Intel(R) Iris(R) Xe Graphics (TGL GT2)"
 "DriverVersion"="31.0.101.4576"
 "HardwareInformation.AdapterString"="Intel(R) Iris(R) Xe Graphics (TGL GT2)"
 "HardwareInformation.BiosString"="Intel(R) Iris(R) Xe Graphics (TGL GT2)"
 "HardwareInformation.ChipType"="Intel(R) Iris(R) Xe Graphics (TGL GT2)"
 "HardwareInformation.DacType"="Intergrated RAMDAC"
-"HardwareInformation.MemorySize"=dword:e0a40c00
-"HardwareInformation.qwMemorySize"=hex(b):00,0c,a4,e0,02,00,00,00
+"HardwareInformation.MemorySize"=dword:e0a3f400
+"HardwareInformation.qwMemorySize"=hex(b):00,f4,a3,e0,02,00,00,00
 
-[System\\ControlSet001\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0001] 1793470738
-#time=1dd69644bf61c2c
-"DriverDate"="10-31-2026"
-"DriverDateData"=hex:60,ea,f5,4b,64,69,dd,01
+[System\\ControlSet001\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0001] 1794224032
+#time=1dd703e325f59fa
+"DriverDate"="11-9-2026"
+"DriverDateData"=hex:28,2b,5f,32,3e,70,dd,01
 "DriverDesc"="llvmpipe (LLVM 21.1.8, 256 bits)"
 "HardwareInformation.AdapterString"="llvmpipe (LLVM 21.1.8, 256 bits)"
 "HardwareInformation.BiosString"="llvmpipe (LLVM 21.1.8, 256 bits)"
 "HardwareInformation.ChipType"="llvmpipe (LLVM 21.1.8, 256 bits)"
 "HardwareInformation.DacType"="Intergrated RAMDAC"
-"HardwareInformation.MemorySize"=dword:d6301000
-"HardwareInformation.qwMemorySize"=hex(b):00,10,30,d6,03,00,00,00
+"HardwareInformation.MemorySize"=dword:d62ff000
+"HardwareInformation.qwMemorySize"=hex(b):00,f0,2f,d6,03,00,00,00
 
-[System\\ControlSet001\\Control\\Class\\{4D36E96E-E325-11CE-BFC1-08002BE10318}] 1793470738
-#time=1dd69644bf5ce84
+[System\\ControlSet001\\Control\\Class\\{4D36E96E-E325-11CE-BFC1-08002BE10318}] 1794224032
+#time=1dd703e325e983a
 @="Monitors"
 "Class"="Monitor"
 
-[System\\ControlSet001\\Control\\Class\\{4D36E96E-E325-11CE-BFC1-08002BE10318}\\0000] 1793470738
-#time=1dd69644bf5ce84
+[System\\ControlSet001\\Control\\Class\\{4D36E96E-E325-11CE-BFC1-08002BE10318}\\0000] 1794224032
+#time=1dd703e325e983a
 
 [System\\ControlSet001\\Control\\Class\\{4d36e978-e325-11ce-bfc1-08002be10318}] 1792867774
 #time=1dd63e8694748d6
@@ -87474,68 +87729,68 @@ WINE REGISTRY Version 2
 #time=1dd63e86ae3e942
 "DeviceInstance"="WINEBTH\\RADIO\\_ORG_BLUEZ_HCI0"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{0850302A-B344-4FDA-9BE9-90576B8D46F0}\\##?#winebth#radio#_org_bluez_hci0#{0850302a-b344-4fda-9be9-90576b8d46f0}\\#] 1793470738
-#time=1dd69644bfde7f4
+[System\\ControlSet001\\Control\\DeviceClasses\\{0850302A-B344-4FDA-9BE9-90576B8D46F0}\\##?#winebth#radio#_org_bluez_hci0#{0850302a-b344-4fda-9be9-90576b8d46f0}\\#] 1794224032
+#time=1dd703e3280dca6
 "SymbolicLink"="\\\\?\\winebth#radio#_org_bluez_hci0#{0850302a-b344-4fda-9be9-90576b8d46f0}"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}\\##?#PCI#VEN_0005&DEV_0000&SUBSYS_00000000&REV_00#00000001#{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}] 1793470738
-#time=1dd69644bf62636
+[System\\ControlSet001\\Control\\DeviceClasses\\{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}\\##?#PCI#VEN_0005&DEV_0000&SUBSYS_00000000&REV_00#00000001#{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}] 1794224032
+#time=1dd703e325f6774
 "DeviceInstance"="PCI\\VEN_0005&DEV_0000&SUBSYS_00000000&REV_00\\00000001"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}\\##?#PCI#VEN_8086&DEV_9A49&SUBSYS_00000000&REV_00#00000000#{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}] 1793470738
-#time=1dd69644bf5419e
+[System\\ControlSet001\\Control\\DeviceClasses\\{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}\\##?#PCI#VEN_8086&DEV_9A49&SUBSYS_00000000&REV_00#00000000#{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}] 1794224032
+#time=1dd703e325d295a
 "DeviceInstance"="PCI\\VEN_8086&DEV_9A49&SUBSYS_00000000&REV_00\\00000000"
 
 [System\\ControlSet001\\Control\\DeviceClasses\\{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\\##?#hid#vid_845e&pid_0001#0&0000&0&0&0#{378de44c-56ef-11d1-bc8c-00a0c91405dd}] 1792867776
 #time=1dd63e86af43c34
 "DeviceInstance"="HID\\VID_845E&PID_0001\\0&0000&0&0&0"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\\##?#hid#vid_845e&pid_0001#0&0000&0&0&0#{378de44c-56ef-11d1-bc8c-00a0c91405dd}\\#] 1793470738
-#time=1dd69644bfb741a
+[System\\ControlSet001\\Control\\DeviceClasses\\{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\\##?#hid#vid_845e&pid_0001#0&0000&0&0&0#{378de44c-56ef-11d1-bc8c-00a0c91405dd}\\#] 1794224032
+#time=1dd703e327d8fce
 "SymbolicLink"="\\\\?\\hid#vid_845e&pid_0001#0&0000&0&0&0#{378de44c-56ef-11d1-bc8c-00a0c91405dd}"
 
 [System\\ControlSet001\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#hid#vid_845e&pid_0001#0&0000&0&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}] 1792867776
 #time=1dd63e86af42eec
 "DeviceInstance"="HID\\VID_845E&PID_0001\\0&0000&0&0&0"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#hid#vid_845e&pid_0001#0&0000&0&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}\\#] 1793470738
-#time=1dd69644bfb2456
+[System\\ControlSet001\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#hid#vid_845e&pid_0001#0&0000&0&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}\\#] 1794224032
+#time=1dd703e327d3826
 "SymbolicLink"="\\\\?\\hid#vid_845e&pid_0001#0&0000&0&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}"
 
 [System\\ControlSet001\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#hid#vid_845e&pid_0002#0&0000&0&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}] 1792867776
 #time=1dd63e86af32dc6
 "DeviceInstance"="HID\\VID_845E&PID_0002\\0&0000&0&0&0"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#hid#vid_845e&pid_0002#0&0000&0&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}\\#] 1793470738
-#time=1dd69644bf95c20
+[System\\ControlSet001\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#hid#vid_845e&pid_0002#0&0000&0&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}\\#] 1794224032
+#time=1dd703e3278f87e
 "SymbolicLink"="\\\\?\\hid#vid_845e&pid_0002#0&0000&0&0&0#{4d1e55b2-f16f-11cf-88cb-001111000030}"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{5B45201D-F2F2-4F3B-85BB-30FF1F953599}\\##?#PCI#VEN_0005&DEV_0000&SUBSYS_00000000&REV_00#00000001#{5B45201D-F2F2-4F3B-85BB-30FF1F953599}] 1793470738
-#time=1dd69644bf61f60
+[System\\ControlSet001\\Control\\DeviceClasses\\{5B45201D-F2F2-4F3B-85BB-30FF1F953599}\\##?#PCI#VEN_0005&DEV_0000&SUBSYS_00000000&REV_00#00000001#{5B45201D-F2F2-4F3B-85BB-30FF1F953599}] 1794224032
+#time=1dd703e325f5eaa
 "DeviceInstance"="PCI\\VEN_0005&DEV_0000&SUBSYS_00000000&REV_00\\00000001"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{5B45201D-F2F2-4F3B-85BB-30FF1F953599}\\##?#PCI#VEN_8086&DEV_9A49&SUBSYS_00000000&REV_00#00000000#{5B45201D-F2F2-4F3B-85BB-30FF1F953599}] 1793470738
-#time=1dd69644bf526d2
+[System\\ControlSet001\\Control\\DeviceClasses\\{5B45201D-F2F2-4F3B-85BB-30FF1F953599}\\##?#PCI#VEN_8086&DEV_9A49&SUBSYS_00000000&REV_00#00000000#{5B45201D-F2F2-4F3B-85BB-30FF1F953599}] 1794224032
+#time=1dd703e325cc514
 "DeviceInstance"="PCI\\VEN_8086&DEV_9A49&SUBSYS_00000000&REV_00\\00000000"
 
 [System\\ControlSet001\\Control\\DeviceClasses\\{884B96C3-56EF-11D1-BC8C-00A0C91405DD}\\##?#hid#vid_845e&pid_0002#0&0000&0&0&0#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}] 1792867776
 #time=1dd63e86af33ad2
 "DeviceInstance"="HID\\VID_845E&PID_0002\\0&0000&0&0&0"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{884B96C3-56EF-11D1-BC8C-00A0C91405DD}\\##?#hid#vid_845e&pid_0002#0&0000&0&0&0#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}\\#] 1793470738
-#time=1dd69644bfa30fa
+[System\\ControlSet001\\Control\\DeviceClasses\\{884B96C3-56EF-11D1-BC8C-00A0C91405DD}\\##?#hid#vid_845e&pid_0002#0&0000&0&0&0#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}\\#] 1794224032
+#time=1dd703e327bfe70
 "SymbolicLink"="\\\\?\\hid#vid_845e&pid_0002#0&0000&0&0&0#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}"
 
 [System\\ControlSet001\\Control\\DeviceClasses\\{92383B0E-F90E-4AC9-8D44-8C2D0D0EBDA2}\\##?#winebth#radio#_org_bluez_hci0#{92383b0e-f90e-4ac9-8d44-8c2d0d0ebda2}] 1792867776
 #time=1dd63e86ae43d8e
 "DeviceInstance"="WINEBTH\\RADIO\\_ORG_BLUEZ_HCI0"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{92383B0E-F90E-4AC9-8D44-8C2D0D0EBDA2}\\##?#winebth#radio#_org_bluez_hci0#{92383b0e-f90e-4ac9-8d44-8c2d0d0ebda2}\\#] 1793470738
-#time=1dd69644bfe4262
+[System\\ControlSet001\\Control\\DeviceClasses\\{92383B0E-F90E-4AC9-8D44-8C2D0D0EBDA2}\\##?#winebth#radio#_org_bluez_hci0#{92383b0e-f90e-4ac9-8d44-8c2d0d0ebda2}\\#] 1794224032
+#time=1dd703e3282023e
 "SymbolicLink"="\\\\?\\winebth#radio#_org_bluez_hci0#{92383b0e-f90e-4ac9-8d44-8c2d0d0ebda2}"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{E6F07B5F-EE97-4A90-B076-33F57BF4EAA7}\\##?#DISPLAY#Default_Monitor#0000&0000#{E6F07B5F-EE97-4A90-B076-33F57BF4EAA7}] 1793470738
-#time=1dd69644bf5d1cc
+[System\\ControlSet001\\Control\\DeviceClasses\\{E6F07B5F-EE97-4A90-B076-33F57BF4EAA7}\\##?#DISPLAY#Default_Monitor#0000&0000#{E6F07B5F-EE97-4A90-B076-33F57BF4EAA7}] 1794224032
+#time=1dd703e325e9cd6
 "DeviceInstance"="DISPLAY\\Default_Monitor\\0000&0000"
 
 [System\\ControlSet001\\Control\\Filesystem] 1792867774
@@ -88146,28 +88401,28 @@ WINE REGISTRY Version 2
 #time=1dd63e8694bc0c8
 "CSDVersion"=dword:00000000
 
-[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000] 1793470738
-#time=1dd69644bf5bf8e
+[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000] 1794224032
+#time=1dd703e325e82be
 "Class"="Monitor"
 "ClassGUID"="{4D36E96E-E325-11CE-BFC1-08002BE10318}"
 "DeviceDesc"="Generic Non-PnP Monitor"
 "Driver"="{4D36E96E-E325-11CE-BFC1-08002BE10318}\\0000"
 "HardwareID"=str(7):"MONITOR\\Default_Monitor\0"
 
-[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Device Parameters] 1793470738
-#time=1dd69644bf5bd36
+[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Device Parameters] 1794224032
+#time=1dd703e325e7f26
 "BAD_EDID"=hex:
 
-[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{233a9ef3-afc4-4abd-b564-c32f21f1535b}\\0004] 1793470738
-#time=1dd69644bf5c380
+[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{233a9ef3-afc4-4abd-b564-c32f21f1535b}\\0004] 1794224032
+#time=1dd703e325e87e6
 @=hex(ffff1003):00,00,00,00,00,00,00,00,80,07,00,00,38,04,00,00
 
-[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{CA085853-16CE-48AA-B114-DE9C72334223}\\0001] 1793470738
-#time=1dd69644bf5c9d4
+[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{CA085853-16CE-48AA-B114-DE9C72334223}\\0001] 1794224032
+#time=1dd703e325e9024
 @=hex(ffff0008):f4,03,00,00,00,00,00,00
 
-[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{CA085853-16CE-48AA-B114-DE9C72334223}\\0002] 1793470738
-#time=1dd69644bf5cc40
+[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{CA085853-16CE-48AA-B114-DE9C72334223}\\0002] 1794224032
+#time=1dd703e325e9358
 @=hex(ffff0007):00,00,00,00
 
 [System\\ControlSet001\\Enum\\HID\\VID_845E&PID_0001\\0&0000&0&0&0] 1792867776
@@ -88212,8 +88467,8 @@ WINE REGISTRY Version 2
 #time=1dd63e867b1c528
 @=hex(ffff000d):6d,65,73,61,32,36,2e,30,2e,38,2d,31,75,62,75,00
 
-[System\\ControlSet001\\Enum\\PCI\\VEN_0005&DEV_0000&SUBSYS_00000000&REV_00\\00000001\\Properties\\{540B947E-8B40-45BC-A8A2-6A0B894CBDA2}\\0005] 1793470738
-#time=1dd69644bf610c4
+[System\\ControlSet001\\Enum\\PCI\\VEN_0005&DEV_0000&SUBSYS_00000000&REV_00\\00000001\\Properties\\{540B947E-8B40-45BC-A8A2-6A0B894CBDA2}\\0005] 1794224032
+#time=1dd703e325f46f4
 @=hex(ffff0011):01,00,00,00
 
 [System\\ControlSet001\\Enum\\PCI\\VEN_0005&DEV_0000&SUBSYS_00000000&REV_00\\00000001\\Properties\\{60B193CB-5276-4D0F-96FC-F173ABAD3EC6}\\0002] 1792867771
@@ -88245,8 +88500,8 @@ WINE REGISTRY Version 2
 #time=1dd63e867b177d0
 @=hex(ffff000d):86,80,49,9a,01,00,00,00,00,02,00,00,00,00,00,00
 
-[System\\ControlSet001\\Enum\\PCI\\VEN_8086&DEV_9A49&SUBSYS_00000000&REV_00\\00000000\\Properties\\{540B947E-8B40-45BC-A8A2-6A0B894CBDA2}\\0005] 1793470738
-#time=1dd69644bf516c4
+[System\\ControlSet001\\Enum\\PCI\\VEN_8086&DEV_9A49&SUBSYS_00000000&REV_00\\00000000\\Properties\\{540B947E-8B40-45BC-A8A2-6A0B894CBDA2}\\0005] 1794224032
+#time=1dd703e325c8a40
 @=hex(ffff0011):01,00,00,00
 
 [System\\ControlSet001\\Enum\\PCI\\VEN_8086&DEV_9A49&SUBSYS_00000000&REV_00\\00000000\\Properties\\{60B193CB-5276-4D0F-96FC-F173ABAD3EC6}\\0002] 1792867771

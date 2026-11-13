@@ -1,0 +1,14 @@
+{
+    "KPlugin": {
+        "Id": "org.nacho.sunclock",
+        "Name": "Sun Clock",
+        "Description": "Reloj analógico minimalista sobre el sol del fondo de pantalla",
+        "Icon": "clock",
+        "Authors": [{ "Name": "Nacho" }],
+        "Version": "1.0",
+        "License": "MIT",
+        "Category": "Date and Time"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
