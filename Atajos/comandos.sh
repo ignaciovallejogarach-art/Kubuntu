@@ -6,7 +6,6 @@
 alias vpn_ucm='globalprotect connect --portal galeria.ucm.es'
 
 # Desconectar
-alias vpn_ucm_off='globalprotect disconnect'
 
 # Consultar estado
 alias vpn_ucm_estado='globalprotect show --status'
@@ -16,3 +15,47 @@ alias recharge_bash='source ~/.bashrc'
 
 # COROS → diario (instalado por Entrenamientos)
 sincronizar_entrenamientos() { /home/ignacio/Proyectos/Orientacion/Entrenamientos/scripts/sincronizar_entrenamientos "$@"; }
+
+
+alias mapper='Mapper'
+
+# === VPN UCM: desconexión y limpieza DNS ===
+unalias vpn_ucm_off 2>/dev/null || true
+
+vpn_ucm_off() {
+    globalprotect disconnect
+
+    if globalprotect show --status | grep -qi "Disconnected"; then
+        sudo resolvectl revert gpd0 2>/dev/null || true
+        sudo resolvectl flush-caches
+        echo "✓ VPN desconectada y DNS restaurados."
+    else
+        echo "⚠ La VPN sigue conectada. No se modifican los DNS."
+        return 1
+    fi
+}
+
+# === MIGRADO DESDE paths.sh ===
+alias mapper='Mapper'
+
+# === VPN UCM: desconexión y limpieza DNS ===
+unalias vpn_ucm_off 2>/dev/null || true
+
+vpn_ucm_off() {
+    globalprotect disconnect
+
+    if globalprotect show --status | grep -qi "Disconnected"; then
+        sudo resolvectl revert gpd0 2>/dev/null || true
+        sudo resolvectl flush-caches
+        echo "✓ VPN desconectada y DNS restaurados."
+    else
+        echo "⚠ La VPN sigue conectada. No se modifican los DNS."
+        return 1
+    fi
+}
+
+unalias vpn_off 2>/dev/null || true
+
+vpn_off() {
+    vpn_ucm_off "$@"
+}
