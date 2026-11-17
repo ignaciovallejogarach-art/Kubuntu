@@ -22,12 +22,13 @@ murphy() {
 }
 
 # === PARA CIU RUN CLUB ===
-alias crc_marca='cd "$HOME/Proyectos/Deporte/CRC/Marca"'
-crc_branding() {
+alias ciu_marca='cd "$HOME/Proyectos/Deporte/CRC/Marca"'
+alias ciu_app='cd "$HOME/Proyectos/Deporte/CRC/CIU_MEMBERS"'
+ciu_branding() {
 	cd "$HOME/Proyectos/Deporte/CRC/Marca"
 	micro "branding.md"
 }
-crc_logos() {
+ciu_logos() {
 	dolphin "$HOME/Proyectos/Deporte/CRC/Marca/Logos"
 }
 
@@ -46,3 +47,9 @@ paths() {
 
 # === PARA MOSTRAR INFORMACIÓN ===
 alias info_git='bash "$HOME/Proyectos/Kubuntu/Consola/info_git.sh"'
+
+# === PARA MIS PROYECTOS === 
+alias analisis_inversion='cd "$HOME/Proyectos/Finanzas/Analisis-Inversion"'
+
+# === PARA CONCURSOS ===
+alias ojo_ciudadano='cd "$HOME/Proyectos/Concursos/Ojo-Ciudadano"'
